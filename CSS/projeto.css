@@ -1,0 +1,89 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Poppins:wght@100;300;500&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Poppins:wght@100;300;500&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Poppins:wght@100;300;500&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+
+:root {
+    --titulos: 'Poppins', sans-serif;;
+    --textos: 'Open Sans', Verdana;
+    --destaque: 'Signika Negative', sans-serif;
+    --botao: 'Titillium Web', sans-serif;
+    --numeros: 'Courier New', Verdana;
+
+    --azulescuto:  #03253B;
+    --azulmedio: #002855;
+    --azulclaro:  #007BFF;
+    --gold: #FDEE7D;
+    --cinza: #A0A0A0;
+    --White: #F8F9FB;
+
+}
+
+
+/* Celular */
+
+@media (max-width: 770px) {
+    #salas {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+
+}
+
+
+body {
+    background-color: var(--cinza);
+}
+
+main {
+    background-color: var(--White);
+    padding: 20px;
+    box-shadow: 2px 1px 10px 5px #00000061;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 80%;
+    min-width: 90%;
+    overflow: hidden;
+}
+
+.efeito-foto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 550px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+div#entrada {
+    background-image: url(../Imagens/entrada.png);
+}
+
+div#salas {
+    display: flex;
+    width: 100%;
+}
+
+.salas {
+    min-height: 20vh;
+    opacity: 10;
+    margin-top: -40px;
+    padding: 50px 10px 50px 10px;
+}
+
+main > p, h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
