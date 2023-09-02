@@ -1,0 +1,11 @@
+Fonte para Títulos (H1, H2, H3, etc.): Para títulos e cabeçalhos de destaque, você pode considerar uma fonte elegante e moderna, como "Roboto". Essa fonte tem uma aparência limpa e é amplamente legível em diferentes dispositivos.
+
+Fonte para Texto Principal (Parágrafos): Para o texto principal do conteúdo, é importante escolher uma fonte que seja altamente legível. "Open Sans" é uma opção que oferece clareza e legibilidade em diferentes tamanhos e é amplamente utilizada na web para esse fim.
+
+Fonte para Destaques: Para destacar informações importantes, como citações, você pode optar por uma fonte ligeiramente diferente, como "Montserrat". Ela tem uma aparência mais arrojada e é boa para adicionar contraste em relação à fonte principal.
+
+Fonte do Logotipo: A fonte usada no logotipo da Nexus Academy deve ser única e refletir a identidade da instituição. Pode ser uma fonte personalizada projetada para o logotipo ou uma fonte já existente que tenha sido modificada para criar um logotipo exclusivo.
+
+Fonte para Botões e Elementos de Destaque: Ao criar botões e outros elementos de destaque, você pode usar uma fonte sem serifa como "Lato" para fornecer um visual moderno e limpo.
+
+Fonte para Números e Dados: Para números e dados em gráficos e tabelas, é bom usar uma fonte monoespaçada, como "Courier New", que alinha os caracteres verticalmente para facilitar a leitura de informações numéricas.
