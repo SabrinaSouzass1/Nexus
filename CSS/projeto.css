@@ -28,14 +28,31 @@
 /* Celular */
 
 @media (max-width: 770px) {
-    #salas {
+    #salas, #uniforme {
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    
+
+    main video#geral {
+        width: 100%;
+    }
+
+    html body  main {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    main div#parametro {
+        width: 90vw;
+    }
+
 
 }
 
+#parametro {
+    width: 75vw;
+}
 
 body {
     background-color: var(--cinza);
@@ -50,9 +67,9 @@ main {
     text-align: left;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 80%;
-    min-width: 90%;
+    width: 80vw;
     overflow: hidden;
+    background-color: #E3FFFA;
 }
 
 .efeito-foto {
@@ -70,9 +87,29 @@ div#entrada {
     background-image: url(../Imagens/entrada.png);
 }
 
+div#refeitorio {
+    background-image: url(../Imagens/Refeitorio.png);
+}
+
+div#cinema {
+    display: flex;
+    justify-content: center;
+}
+
 div#salas {
     display: flex;
     width: 100%;
+}
+
+div#uniforme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#uniforme > img {
+    width: 400px;
+    margin: 20px;
 }
 
 .salas {
@@ -87,3 +124,12 @@ main > p, h1, h2 {
     margin-top: 10px;
 }
 
+video#geral {
+    width: 50%;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

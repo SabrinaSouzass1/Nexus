@@ -104,8 +104,6 @@ div#welcome h1 {
     animation: 
       typing 3.5s steps(40, end) 1s infinite,
       blink-caret .75s step-end infinite;
-      animation-delay: 1s ;
-
   }
 
 
