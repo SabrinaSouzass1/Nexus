@@ -42,10 +42,25 @@ p {
 /* Celular */
 
 @media (max-width: 770px) {
-    div#welcome h1{
+    div#welcome h1 {
         font-size: 0.99em;
     }
+
 }
+
+@media (max-width: 450px) {
+    body div#menu-cell {
+        display: flex;
+    }
+}
+
+
+@media (max-width: 450px) {
+    body nav#menu-pc {
+        display: none;
+    }
+}
+
 
 /* Header */
 
@@ -120,8 +135,8 @@ div#welcome h1 {
 
 /* Menu PC */
 
-div#menu-pc {
-    width: 180px;
+nav#menu-pc {
+    width: 250px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -129,7 +144,7 @@ div#menu-pc {
     z-index: 1;
 }
 
-div#menu-pc a {
+nav#menu-pc a {
     color: var(--White);
     text-decoration: none;
     font-family: var(--textos);
@@ -138,8 +153,83 @@ div#menu-pc a {
     text-shadow: 1px 1px 2px #fdee7d4a;
 }
 
-div#menu-pc a:hover {
+nav#menu-pc a:hover {
     font-size: x-large;
     text-shadow: 1px 1px 4px #fdee7d78;
+    color: #FDEE7D;
 }
+
+/* Menu cell */
+
+div#menu-cell  {
+    width: 30px;
+    height: 100px;
+    align-items: center;
+    justify-content: right;
+    display: none;
+}   
+
+div#menu-cell i {
+    color: white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+menu {
+    width: 190px;
+    height: 192px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10000;
+    transition: 0.5s;
+    right: -150px; 
+    position: relative;
+}
+
+
+menu#menucell a {
+    background-color: rgba(255, 255, 255, 0.233);
+    display: flex;
+    color: var(--gold);
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    width: 150px;
+    border-radius: 90px 0px 0px 90px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    font-family: var(--textos);
+    backdrop-filter: blur(10px);
+    margin-left: 150%; 
+    animation: burger 3.5s forwards,
+    burgerclose 3.5s forwards; 
+    justify-content: space-evenly;
+    box-shadow: 1px 2px #FDEE7D;
+}
+
+
+@keyframes burger {
+    from {
+        right: -250px; 
+    }
+    to {
+        right: 0; 
+        margin-left: -21%; 
+    }
+}
+
+
+
+  menu#menucell a:hover {
+    font-size: x-large;
+  }
+
+
+
 

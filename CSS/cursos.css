@@ -28,33 +28,15 @@
 /* Celular */
 
 @media (max-width: 770px) {
-    #salas, #uniforme {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    main video#geral {
-        width: 100%;
-    }
-
     html body  main {
         display: flex;
         justify-content: center;
         width: 100vw;
     }
-
-    main div#parametro {
-        width: 90vw;
-    }
-
-
 }
 
-/* PC */
 
-#parametro {
-    width: 75vw;
-}
+/* Corpo */
 
 body {
     background-color: var(--cinza);
@@ -65,73 +47,69 @@ main {
     padding: 20px;
     box-shadow: 2px 1px 10px 5px #00000061;
     display: flex;
-    justify-content: center;
     text-align: left;
     flex-wrap: wrap;
-    flex-direction: column;
     width: 80vw;
     overflow: hidden;
     background-color: #E3FFFA;
+    justify-content: space-around;
 }
 
-.efeito-foto {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 550px;
+div.cursos {
+    width: 200px;
+    height: 400px;
+    background-color: #007bff42;
+    margin: 20px;
+    border: 1px solid var(--azulescuto);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.cursos h1 {
+    font-size: 15px;
+    width: 190px;
+    height:100px;
+}
+
+div.cursos p {
+    font-size: 10px;
+}
+
+div.imagens-curso {
+    margin-bottom: 10px;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--azulescuto);
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.247);
+
 }
 
-
-div#entrada {
-    background-image: url(../Imagens/entrada.png);
-}
-
-div#refeitorio {
-    background-image: url(../Imagens/Refeitorio.png);
-}
-
-div#cinema {
-    display: flex;
-    justify-content: center;
-}
-
-div#salas {
-    display: flex;
-    width: 100%;
-}
-
-div#uniforme {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div#uniforme > img {
-    width: 400px;
-    margin: 20px;
-}
-
-.salas {
-    min-height: 20vh;
-    opacity: 10;
-    margin-top: -40px;
-    padding: 50px 10px 50px 10px;
-}
-
-main > p, h1, h2 {
-    margin-bottom: 10px;
+button#btn {
+    padding: 5px 20px;
     margin-top: 10px;
+    border-radius: 90px;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.247);
+    border:1px solid var(--azulmedio);
+    transition: 0.5s;
 }
 
-video#geral {
-    width: 50%;
+button#btn:hover {
+    box-shadow: 2px 2px 12px 2px var(--azulescuto);
+    font-size: large;
+
 }
 
-.geral {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#curso1 {
+    background-image: url(../Imagens/maquina.png);
+}
+
+#curso2 {
+    background-image: url(../Imagens/block.png);
 }

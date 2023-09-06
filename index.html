@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/cabecalho.css">
     <script src="JS/JavaScript.js" type="JavaScript"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Nexus</title>
 </head>
 <body>
@@ -15,10 +16,21 @@
 
     <img src="Imagens/android-chrome-192x192.png" alt="" id="logo">
     
-    <div id="menu-pc">
+    <nav id="menu-pc">
         <a href="index.html">Home</a>
         <a href="projeto.html">Projeto</a>
+        <a href="cursos.html">Cursos</a>
+    </nav>
+
+    <div id="menu-cell">
+        <i onclick="clickMenu()" class="material-symbols-outlined">menu</i>
     </div>
+
+    <menu id="menucell" style="display: none;"> 
+        <a href="index.html">Home <img class="menu-icons" src="Imagens/home.png" alt=""> </a>
+        <a href="projeto.html">Projeto <img src="Imagens/project-management.png" alt=""> </a>
+        <a href="cursos.html">Cursos <img src="Imagens/technology.png" alt=""></a>
+    </menu>
 
 </header>
 
@@ -37,3 +49,5 @@
 
 </body>
 </html>
+
+<script src="JS/JavaScript.js"></script>
