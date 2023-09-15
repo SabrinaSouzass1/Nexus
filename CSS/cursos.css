@@ -36,29 +36,37 @@
 }
 
 
-/* Corpo */
-
-body {
-    background-color: var(--cinza);
+div#fundo {
+    background-image: url(../Imagens/back.png);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
+
+
+/* Corpo */
+
 main {
-    background-color: var(--White);
     padding: 20px;
     box-shadow: 2px 1px 10px 5px #00000061;
     display: flex;
     text-align: left;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 90vw;
     overflow: hidden;
-    background-color: #E3FFFA;
     justify-content: space-around;
+    margin-top: 200px;
 }
 
 div.cursos {
     width: 200px;
     height: 400px;
-    background-color: #007bff42;
+    background-color: var(--azulmedio);
     margin: 20px;
     border: 1px solid var(--azulescuto);
     border-radius: 20px;
@@ -73,11 +81,13 @@ div.cursos {
 div.cursos h1 {
     font-size: 15px;
     width: 190px;
+    color: white;
     height:100px;
 }
 
 div.cursos p {
     font-size: 10px;
+    color: white;
 }
 
 div.imagens-curso {
@@ -101,7 +111,7 @@ button#btn {
 }
 
 button#btn:hover {
-    box-shadow: 2px 2px 12px 2px var(--azulescuto);
+    box-shadow: 2px 2px 12px 2px var(--azulclaro);
     font-size: large;
 
 }

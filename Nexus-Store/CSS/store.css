@@ -1,0 +1,144 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Poppins:wght@100;300;500&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Poppins:wght@100;300;500&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Poppins:wght@100;300;500&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+
+:root {
+    --titulos: 'Poppins', sans-serif;;
+    --textos: 'Open Sans', Verdana;
+    --destaque: 'Signika Negative', sans-serif;
+    --botao: 'Titillium Web', sans-serif;
+    --numeros: 'Courier New', Verdana;
+
+    --azulescuto:  #03253B;
+    --azulmedio: #002855;
+    --azulclaro:  #007BFF;
+    --gold: #FDEE7D;
+    --cinza: #A0A0A0;
+    --White: #F8F9FB;
+
+}
+
+
+div#fundo {
+    background-image: url(../Imagens/back.png);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+/* Corpo */
+
+
+main {
+    padding: 20px;
+    box-shadow: 2px 1px 10px 5px #00000061;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 90vw;
+    overflow: hidden;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+div.produtos {
+    width: 230px;
+    height: 400px;
+    background-color: var(--gold);
+    margin: 20px;
+    border: 1px solid var(--azulescuto);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.produtos h1 {
+    font-size: 15px;
+    width: 190px;
+    height:100px;
+}
+
+div.produtos p {
+    font-size: 10px;
+}
+
+div.imagens-produtos {
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: contain;
+    width: 180px;
+    height: 170px;
+    border: 1px solid var(--azulescuto);
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.247);
+
+}
+
+button#btn {
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 90px;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.247);
+    border:1px solid var(--azulmedio);
+    transition: 0.5s;
+}
+
+button#btn:hover {
+    box-shadow: 2px 2px 12px 2px rgba(126, 109, 23, 0.649);
+    font-size: large;
+
+}
+
+div#produtos1 {
+    background-image: url(../Imagens/NexusSound\ Pro.png);
+}
+
+div#produtos2 {
+    background-image: url(../Imagens/NexusWatch.png);
+}
+
+div#produtos3 {
+    background-image: url(../Imagens/Caneta\ Nexus.png);
+}
+
+div#produtos4 {
+    background-image: url(../Imagens/Nexus\ Mouse\ X1.png);
+}
+
+div#produtos5 {
+    background-image: url(../Imagens/Monitor.png);
+}
+
+div#produtos6 {
+    background-image: url(../Imagens/carregador\ sem\ fio.png);
+}
+
+div#produtos7 {
+    background-image: url(../Imagens/HUB\ USB\ Nexus.png);
+}
+
+div#produtos8 {
+    background-image: url(../Imagens/Webcam\ Nexus.png);
+}
+
+div#produtos9 {
+    background-image: url(../Imagens/Gabinete.png);
+}
+
+div#produtos10 {
+    background-image: url(../Imagens/VR.png);
+}

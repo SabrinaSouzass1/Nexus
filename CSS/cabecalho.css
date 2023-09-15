@@ -136,7 +136,7 @@ div#welcome h1 {
 /* Menu PC */
 
 nav#menu-pc {
-    width: 250px;
+    width: 380px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -205,7 +205,7 @@ menu#menucell a {
     margin-bottom: 10px;
     transition: 0.5s;
     font-family: var(--textos);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(100px);
     margin-left: 150%; 
     animation: burger 3.5s forwards,
     burgerclose 3.5s forwards; 
